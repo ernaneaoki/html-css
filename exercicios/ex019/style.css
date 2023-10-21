@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* em HTML, id */
+body {background-color: aquamarine; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h1 { color: blue; text-align: center;}
+h1#principal{text-align: center; color: aliceblue;}
+p {text-align: justify;}
+h2 {color: chocolate;}
+.tópico{text-align: center; background-color: crimson; color: cyan; font-weight: bolder;}
+.texto {text-align: justify; font-style: oblique; font-size: xx-large;}
+.destaque{background-color: darkseagreen;}
+#principal {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; background-color: aquamarine; font-size: xx-large;}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+<style>
+body{font-family: Arial, Helvetica, sans-serif; color: rgba(0, 0, 0, 0.76);}
+h1 { text-align: center; }
+h1 > nav{text-align: center; font-size: larger; padding: 10px; border: 10px solid; outline: auto;}
+h2 {text-align: center;}
+nav {text-align: center; padding: 10px; margin: 10px; border-radius: 0px 20px; box-shadow: 3px -1px 17px 7px rgb(42, 165, 69);}
+article {text-align: justify;  border: 10px double; box-shadow: inset 3px -1px 17px 7px rgb(42, 165, 69); border-radius: 0px 20px;}
+article > aside {text-align: center; outline: auto; outline-style: dashed; color: brown;}
+footer {text-align: center; padding: auto; border: 1px double;  margin: 1px;}
+a {font-size: 0.5em; text-decoration: none; margin-right: 10px;}
+nav > a:visited{color: crimson;}
+nav > a:hover{text-decoration: underline;}
+nav > a:active{color: chartreuse;}
+nav >a::before{content:"\00AE"}
+div#bola {height: 100px width 100px; background-color: rgb(43, 226, 73); margin:10px; border-radius: 50%; text-align: center;}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site
+            <nav>
+                <a href="https://www.youtube.com/" target="_blank">Link A</a>
+                <a href="https://www3.comprasnet.gov.br/sicaf-web/index.jsf" target="_blank">Link B</a>
+                <a href="https://globo.com/" target="_blank">Link C</a>
+                <a href="https://www.ig.com.br/" target="_blank">Link D</a>
+            </nav>
+        </h1>
+    </header>
+<main>
+    <section id="Assuntos"></section>
+    <p>Esportes Política Tecnologia</p>
+    <section id="noticias"></section>
+    <article>
+        <h2>Notícias do Brasil</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ipsum commodi exercitationem, voluptate eius atque quas autem optio corrupti et. Adipisci commodi ipsum eveniet quo similique laboriosam illo, atque inventore.</p>
+        <aside>Conteúdo Periférico do Site</aside>
+    </article>
+</main><hr>
+<footer>Conteúdo do Rodapé</footer>
+
+<div id="bola">
+    <p>Testando</p>
+</div>
+</body>
+</html>

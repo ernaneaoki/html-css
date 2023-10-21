@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Pacifico&family=Roboto:ital,wght@1,300&family=Shantell+Sans:wght@400;800&display=swap');
+  @font-face {
+    font-family: 'Picturama' ;
+    src: url('Fontes/PicturamaAlternate_PERSONAL_USE_ONLY.otf') format('opentype'), url('Fontes/PicturamaFounder_PERSONAL_USE_ONLY.otf') format('opentype'); font-weight: 800; font-style: normal; /* tipos de format otf (open type) e ttf (truetype) embeed-opentype e truetype-aat (Apple Advance Typography) e svg. Caso queira um novo format, add uma vírgula.*/
+  }
+
+body {background-image: linear-gradient(to right, rgb(97, 151, 101), rgb(79, 151, 89));}
+h1 {font-family: 'Picturama', Arial, Helvetica, sans-serif; font-style: oblique; font-style: oblique; color: blue; text-align: center;}
+h2 {font-family: 'Shantell Sans', Arial, Helvetica, sans-serif; font-style: italic; color: rgba(152, 241, 17, 0.795); text-align: center;}
+h3 {font-family: 'Picturama', Arial, Helvetica, sans-serif; text-align: right;}
+p { font-family: 'Roboto',Arial, Helvetica, sans-serif; font-weight: bolder; font-size: 1.5em; color: rgba(175, 85, 175, 0.808); text-align: justify; text-indent: 40px;}

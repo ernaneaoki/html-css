@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {text-indent: 15px;}
+
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+* {
+    margin: 0px; padding: 0px
+}
+
+header {background-image:linear-gradient(0deg, rgb(34, 105, 6), rgb(8, 255, 8)); text-align: center; color: white;}
+#cabecalho1 {font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;}
+header >  nav {font-family: Arial, Helvetica, sans-serif;  font-size: 20px;}
+nav {word-spacing: 20px}
+a:hover { color: rgb(17, 219, 67)}
+a:active {color: blueviolet;}
+a {text-decoration: none;}
+.site {color: white; text-decoration: none;}
+.site1 {font-weight: bolder; color: green;}
+.site2 {color: green; font-weight: bolder;}
+.site2::after {content:'\00AE';}
+main {background-color: white;  margin: auto auto; max-width: 800px; min-width: 400px; } 
+p {text-align: justify;}
+#tituloprincipal {text-align: center; font-family:'idroid'; color: green;}
+.periferia {text-align: center; font-family: 'idroid'; color: green;background-image:linear-gradient(to right, rgb(74, 255, 3), rgba(0, 253, 0, 0.219));}
+.linha {display: flex; flex-flow: row wrap; list-style-type: '\2714\0020\0020';}
+.coluna50 {width: 50%;} 
+footer {background-color: green ; text-align: center;}

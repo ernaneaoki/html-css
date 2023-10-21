@@ -1,0 +1,23 @@
+div {display: inline-block;
+    background-color: bisque; text-align: center;height: 200px; width: 200px; border: 1px solid black;}
+div:hover {background-color: aqua;}
+
+
+a { font-weight: bold; text-decoration: rgb(134, 48, 106); color: blueviolet;}
+
+a:link {color: chocolate;}
+
+a:visited { color: rgb(31, 20, 182);}
+
+a:hover{ text-decoration: underline;}
+
+a:active{ color: rgb(255, 33, 126); font-size: larger;}
+
+#tituloprincipal {background-color: aquamarine; color: azure; text-align: center;}
+.texto::first-line {font-style: italic;  color: chocolate; background-color: rgb(35, 99, 72); font-weight: bolder; font-size: larger;}
+.teste2::before{content: "Testando"; color: rgb(226, 25, 25);}
+.teste2::after{content: "Testando novamente"; color: cornflowerblue; background-color: darksalmon;}
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: justify;}
+.topico {text-align: right;}
