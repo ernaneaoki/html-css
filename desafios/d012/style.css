@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+:root {
+    --fonte1: Arial, Verdana, Helvetica, sans-serif;
+    --fonte3: 'League Gothic', sans-serif
+}
+h1 {
+    background-color: black; margin: auto;
+}
+h1 > p {
+    color: white; text-align: center;
+}
+#título {
+    font-family: var(--fonte3); font-size: 12vw; font-variant: small-caps; margin-top: 0px; margin-bottom: 6px;
+}
+#minitítulo {
+    font-family: var(--fonte1); font-size: 2vw; margin-top: auto; margin-bottom: 0px; padding-bottom: 45px;
+}
+
+.fonteescura {
+    font-family: var(--fonte1); color:  black; font-style: italic; font-weight: bolder; line-height: 40px; ;
+}
+
+.fonteclara {
+    font-family: var(--fonte1); color:  white; font-style: italic; font-weight: bolder; line-height: 40px;  background-color: black;
+}
