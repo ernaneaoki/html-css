@@ -23,6 +23,26 @@ h1 > p {
     font-family: var(--fonte1); color:  black; font-style: italic; font-weight: bolder; line-height: 40px; ;
 }
 
-.fonteclara {
-    font-family: var(--fonte1); color:  white; font-style: italic; font-weight: bolder; line-height: 40px;  background-color: black;
+#fonteclara {
+    font-family: var(--fonte1); color:  white; font-style: italic; font-weight: bolder; line-height: 40px;  background-color: black; position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 50%;
+    height: 50%;
+    background-attachment: scroll;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+#caixa{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    position: relative;
+    height:10vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    border-style: solid ; border-color: black; border-width: 10px;   
 }
