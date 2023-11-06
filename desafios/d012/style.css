@@ -6,6 +6,10 @@
     --fonte1: Arial, Verdana, Helvetica, sans-serif;
     --fonte3: 'League Gothic', sans-serif
 }
+
+body {
+    min-height: 100vh;
+}
 h1 {
     background-color: black; margin: auto;
 }
@@ -19,30 +23,46 @@ h1 > p {
     font-family: var(--fonte1); font-size: 2vw; margin-top: auto; margin-bottom: 0px; padding-bottom: 45px;
 }
 
-.fonteescura {
-    font-family: var(--fonte1); color:  black; font-style: italic; font-weight: bolder; line-height: 40px; ;
+#minitítulo:visited  {
+    color: darkred;
 }
 
-#fonteclara {
-    font-family: var(--fonte1); color:  white; font-style: italic; font-weight: bolder; line-height: 40px;  background-color: black; position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    width: 50%;
-    height: 50%;
-    background-attachment: scroll;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    }
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+}
 
-#caixa{
-    background-image: url(imagens/background001.jpg);
-    background-size: cover;
-    position: relative;
-    height:10vh;
+.fonteescura {
+    font-family: var(--fonte1); color:  black; font-style: italic; font-weight: bolder; font-size: 2vw ;
+    line-height: 3em;; 
+}
+
+#caixa {
+    background-image: url(imagens/background001.jpg); 
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    border-style: solid ; border-color: black; border-width: 10px;
+    background-size: cover;
+    background-position: right center;   
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+ 
+#fonteclara {
+    color: white;  
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 3.5vw ;
+    line-height: 1.8em;
+    box-shadow: inset 6px 6px 13px;
+    display: inline-block;
+    width: 40%;
+    height: 67%;
+    
 }
