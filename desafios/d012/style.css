@@ -2,29 +2,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 
+* {
+    margin: 0px
+}
+
+* {
+    padding: 0px
+}
+
 :root {
     --fonte1: Arial, Verdana, Helvetica, sans-serif;
     --fonte3: 'League Gothic', sans-serif
 }
 
-body {
-    min-height: 100vh;
+html, body {
+    min-height: 100vh; background-color: darkgray;
 }
-h1 {
-    background-color: black; margin: auto;
+header {
+    background-color: black; text-align: center; color: white; font-variant: small-caps; padding-top: 50px; padding-bottom: 50px;
 }
-h1 > p {
-    color: white; text-align: center;
-}
-#título {
-    font-family: var(--fonte3); font-size: 12vw; font-variant: small-caps; margin-top: 0px; margin-bottom: 6px;
-}
-#minitítulo {
-    font-family: var(--fonte1); font-size: 2vw; margin-top: auto; margin-bottom: 0px; padding-bottom: 45px;
+header > p > a {
+    color: white; text-align: center;  text-decoration: none;  color: red;
+} 
+
+header > p {
+    padding-bottom: 50px; padding-top: 50px;
 }
 
-#minitítulo:visited  {
-    color: darkred;
+#título{
+    font-family: var(--fonte3); font-size: 10vw; color: white;  
+}
+
+#minitítulo {
+    font-family: var(--fonte3); font-size: 3vw; font-weight: bolder;
+}
+
+#minitítulo > a:hover {
+    color: blue;  text-decoration: underline;
 }
 
 section {
@@ -32,37 +46,37 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    padding-left: 30px;
     font-size: 3.5vw;
-}
 }
 
 .fonteescura {
-    font-family: var(--fonte1); color:  black; font-style: italic; font-weight: bolder; font-size: 2vw ;
-    line-height: 3em;; 
-}
-
-#caixa {
-    background-image: url(imagens/background001.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right center;   
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    background-attachment: fixed;
+    font-family: var(--fonte1);
+    color:  black; 
+    font-style: italic; 
+    font-weight: bolder; 
+    font-size: 3.5vw ;
+    line-height: 1.8em; 
+    background-color: white;
 }
  
-#fonteclara {
+.fonteclara {
+    background-image: url(imagens/background001.jpg);
     color: white;  
-    background-color: black;
+    background-color: rgba(37, 3, 3, 0.87);
     background-size: cover;
     background-attachment: fixed;
     font-size: 3.5vw ;
     line-height: 1.8em;
-    box-shadow: inset 6px 6px 13px;
-    display: inline-block;
-    width: 40%;
-    height: 67%;
-    
+    box-shadow: inset 6px 6px 13px;       
+}
+
+.fonteclara2 {
+    background-image: url(imagens/background002.jpg     );
+    color: white;  
+    background-color: rgba(37, 3, 3, 0.87);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 3.5vw ;
+    line-height: 1.8em;
+    box-shadow: inset 6px 6px 13px;  
 }
