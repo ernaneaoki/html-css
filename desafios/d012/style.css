@@ -49,6 +49,17 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 1.5em;
+}
+
+section.teste > p {
+    display: inline-block;
+    background-color: rgba(8, 1, 15, 0.178);
+    padding: 10px;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
 .fonteescura {
     font-family: var(--fonte1);
     color:  black; 
@@ -59,18 +70,19 @@ section {
     background-color: white;
 }
  
-.fonteclara {
+#fonteclara {
     background-image: url(imagens/background001.jpg);
     color: white;  
     background-color: rgba(37, 3, 3, 0.87);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
     font-size: 3.5vw ;
     line-height: 1.8em;
     box-shadow: inset 6px 6px 13px;       
 }
 
-.fonteclara2 {
+#fonteclara2 {
     background-image: url(imagens/background002.jpg     );
     color: white;  
     background-color: rgba(37, 3, 3, 0.87);
@@ -79,4 +91,16 @@ section {
     font-size: 3.5vw ;
     line-height: 1.8em;
     box-shadow: inset 6px 6px 13px;  
+}
+
+footer {
+    color: white; background-color: black; font-size: 2vw; text-align: center; padding: 33px;
+}
+
+footer > p > a {
+    text-decoration: none; color: red;
+}
+
+footer > p > a:hover {
+    color: blue;  text-decoration: underline;
 }
