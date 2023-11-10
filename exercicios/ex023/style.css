@@ -1,0 +1,30 @@
+table{
+    width: 600px;
+    border: 1px solid black;
+    border-collapse: separate;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+caption {
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+thead {
+    background-color: green;
+    color: white;
+}
+
+tfoot {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
